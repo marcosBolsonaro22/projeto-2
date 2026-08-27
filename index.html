@@ -1,22 +1,60 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt/br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> Pagina wen: do zero á primeira integraçã
+    <title>pagina web: do zero á primeira interação</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>meu blog tech</h1><!--tag para tutulo-->
-<p>vou compartilhar conhecimentos sobre a teclonogia e promagação</p>  
+<header>
+
+<h1>Meu blog tech</h1>
+<p>vou compartilhar conhecimento sobre tecnologia 
+e progamação </p>
+</header>
     
+<main>
+<img src="png.webp" alt="imagem de um livro">
+<div>
+ <h2>Meu primeiros post</h2>
+<p class="artigo-autor" Por marcos bolsonaro p>
+<p>Boas-vindas ao meu blog</p>
 
-</body>
-</html>
+<button>💜<span>0</span></button>
+</div>
+
+</main>
+
+<footer>Rodapé</footer>
+<main>
+
+<footer>Rodapé</footer>
+
+<body>
+<script>
+    const botoes=document.querySelectorAll("button");//cria uma variável chamada botão selicionada a tag "button"
+botoes.forEac(function(botao){
+botao.addEventListener("click", botaoClicado);//verifica se o botão foi clicado 
+ function botaoClicado(){//cria uma função
+console.log("Fui clicado");//mostra se o botão foi clicado 
+let texto=document.querySelector("span");// cria uma variavel se o botão foi clicado 
+texto.textContent++; //muda o valor de texto adicinando de uma unidade
+
+}
+}
+)
 
 
 
 
+
+</script>
+
+<html>
 
 
 

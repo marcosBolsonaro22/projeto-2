@@ -1,0 +1,34 @@
+header{ 
+ background-color: rgb(3, 92, 0);/*cor de fundo*/   
+  color: black;/*cor de texto*/ 
+ text-align: center;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 16px;/*espaciamento interno*/
+border: 5px solid rgb(116, 63, 241);
+}
+main{
+  background-color: rgb(173, 207, 92); 
+  color: black;
+  text-align: center;/*alinhamento do texto*/
+  max-width: 800px;/*largura máxima*/ 
+  margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+padding: 16px;/*escapamento interno*/
+  display: flex;/*habilita o uso de flex box*/
+flex-direction: row/*orienta os elemento na horizontal na ordem 1 2 3 */;
+} 
+ 
+footer{ 
+  background-color: rgb(65, 41, 102);/*cor de fundo*/
+color:rgb(85, 41, 155) /*cor de fonte*/
+max-width: 800px;/*largura maxima*/
+display: flex;/*habilita o uso de flex box*/
+margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+}
+img{
+width: 80px;/*largura*/
+height: 80px;/*altura*/
+}
+.artigo-autor{
+font-weight: bold;
+}
